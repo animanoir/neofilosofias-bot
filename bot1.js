@@ -312,6 +312,7 @@ const adjetivos = [
   "oral",
   "situacionista",
   "vanguardista",
+  "sintético",
   "ancestral",
   "político",
   "tecnológico",
@@ -355,7 +356,7 @@ setInterval(() => {
     },
     tweeted
   );
-}, 3600000);
+}, 10800000);
 
 function tweeted(err, data, response) {
   console.log("Se mandó el tuit.");
