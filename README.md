@@ -1,6 +1,6 @@
 # Neofilosofías bot
 
-## Descubre nuevos conceptos filosóficos antes que exitan.
+## Descubre nuevos conceptos filosóficos antes que existan.
 
 Lo actualizo de vez en cuando.
 

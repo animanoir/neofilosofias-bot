@@ -3,9 +3,7 @@ const twit = require("twit");
 const _ = require("lodash");
 
 const config = {
-  twitter: {
-    // Aquí van tus credenciales de acceso.
-  }
+  //Aquí van las credenciales.
 };
 
 const T = new twit(config.twitter);
@@ -352,7 +350,7 @@ setInterval(() => {
   T.post(
     "statuses/update",
     {
-      status: `${_.capitalize(nPrefijo)}${nDoctrinas} ${nAdjetivos}`
+      status: `${_.capitalize(nPrefijo)}${nDoctrinas} ${nAdjetivos} #filosofía #nuevasFilosofías`
     },
     tweeted
   );
