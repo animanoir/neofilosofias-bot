@@ -1,0 +1,17 @@
+{
+  "name": "neofilosofias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "neofilosofias.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node neofilosofias.js"
+  },
+  "author": "Óscar A. Montiel",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.1",
+    "twit": "^2.2.11"
+  }
+}
